@@ -236,3 +236,51 @@ legend {
     }
     
     }
+    .container {
+        max-width: 960px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1em;
+    }
+     
+    .deux {
+        list-style: none;
+        padding: 0;
+    }
+     
+    .maint {
+        text-align: center;
+     color: white;
+    }
+    .section {
+        box-shadow: 0 0 20px 0 rgba(72, 94, 116, 0.7);
+    }
+     
+    .section > * {
+        padding: 1em;
+    }
+     
+    .brandname {
+        background-color:rgba(72, 54, 85, 0.678); 
+    }
+     
+    .brandname h3, .brandname ul {
+        text-align: center;
+        margin: 0 0 1rem 0;
+    }
+     
+    /* LARGE SCREENS */
+    @media(min-width:700px) {
+        .section {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+        }
+     
+        .section > * {
+            padding: 2em;
+        }
+     
+        .compnay-info h3, .brandname ul, .maint {
+            text-align: left;
+        }
+    }
