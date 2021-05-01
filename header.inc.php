@@ -19,10 +19,5 @@
             </ul>";
         ?>
         
-
-        <footer>
-       
-        </footer>
-
-    </body>
-</html>
+          <!-- <div class="main"> FOOTER DESIGN IN HTML CSS</div> -->
+ 
