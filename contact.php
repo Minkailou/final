@@ -16,10 +16,10 @@ echo "<div class=\"container\">
         <form>
         <fieldset>
         <table>
-        <tr><td>Nom : </td><td><input type=\"text\" name=\"etages\" size=\"40\" maxlength=\"30\"/></td></tr>
-        <tr><td>Prénom: </td><td><input type=\"text\" name=\"etages\" size=\"40\" maxlength=\"30\"/></td></tr>
-        <tr><td>Email : </td><td><input type=\"text\" name=\"etages\" size=\"40\" maxlength=\"30\"/></td></tr>
-        <tr><td>Tel: </td><td><input type=\"text\" name=\"etages\" size=\"40\" maxlength=\"30\"/></td></tr>
+        <tr><td>Nom : </td><td><input type=\"text\" name=\"nom\" size=\"40\" maxlength=\"30\"/></td></tr>
+        <tr><td>Prénom: </td><td><input type=\"text\" name=\"prenom\" size=\"40\" maxlength=\"30\"/></td></tr>
+        <tr><td>Email : </td><td><input type=\"text\" name=\"email\" size=\"40\" maxlength=\"30\"/></td></tr>
+        <tr><td>Tel: </td><td><input type=\"text\" name=\"tel\" size=\"40\" maxlength=\"30\"/></td></tr>
         <tr>
             <td><input type=\"submit\" value=\"Envoyer\"></td>
         </tr>    

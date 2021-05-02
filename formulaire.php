@@ -1,7 +1,7 @@
 <?php
 include("header.inc.php");
 echo "<h1>Je suis la page Formulaire</h1>";
-echo"<form>
+echo"<form method=\"post\" action=\"corps.inc.php\">
     <fieldset> 
         <legend><h3>Ajouter et modifier les ampoules</h3></legend>
         <table>
