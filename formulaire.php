@@ -1,14 +1,14 @@
 <?php
 include("header.inc.php");
 echo "<h1>Je suis la page Formulaire</h1>";
-echo"<form method=\"post\" action=\"corps.inc.php\">
+echo"<form method=\"post\" action=\"ajout.php\">
     <fieldset> 
         <legend><h3>Ajouter et modifier les ampoules</h3></legend>
         <table>
             <tr><td>Etages : </td><td><input type=\"text\" name=\"etages\" size=\"40\" maxlength=\"30\"/></td></tr>
-            <tr><td>Prix : </td><td><input type=\"text\" name=\"etages\" size=\"40\" maxlength=\"30\"/></td></tr>
-            <tr><td>Position : </td><td><input type=\"text\" name=\"etages\" size=\"40\" maxlength=\"30\"/></td></tr>
-            <tr><td>Date : </td><td><input type=\"text\" name=\"etages\" size=\"40\" maxlength=\"30\"/></td></tr>
+            <tr><td>Prix : </td><td><input type=\"text\" name=\"prix\" size=\"40\" maxlength=\"30\"/></td></tr>
+            <tr><td>Position : </td><td><input type=\"text\" name=\"position\" size=\"40\" maxlength=\"30\"/></td></tr>
+            <tr><td>Date : </td><td><input type=\"text\" name=\"date\" size=\"40\" maxlength=\"30\"/></td></tr>
             <tr>
                 <td><input type=\"submit\" value=\"Ajouter\"></td>
                 <td><input type=\"submit\" value=\"Modifier\"></td>
